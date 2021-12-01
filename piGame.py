@@ -22,6 +22,6 @@ while True:
     else:
         print("")
         print("SCORE: {}".format(score))
-        print("The next two digits are: {}".format(digits[len(exp)-1:len(exp)+3]))
+        print("The next four digits are: {}".format(digits[len(exp)-1:len(exp)+3]))
         break
 termios.tcsetattr(sys.stdin, termios.TCSADRAIN,filedescriptors)
